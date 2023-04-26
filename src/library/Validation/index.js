@@ -1,15 +1,3 @@
-// const loginBtn = document.getElementById('loginBtn');
-// const registerBtn = document.getElementById('registerBtn');
-// const form = document.getElementById('form');
-// const nameField = document.getElementById('nameField');
-// const emailInput = document.getElementById('email');
-// const passwordInput = document.getElementById('password');
-// const confirmPasswordInput = document.getElementById('confirmPassword');
-// const nameError = document.getElementById('nameError');
-// const emailError = document.getElementById('emailError');
-// const passwordError = document.getElementById('passwordError');
-// const confirmPasswordError = document.getElementById('confirmPassword');
-
 const nameRegex = /^[a-zA-Z ]{2,30}$/;
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;

@@ -6,7 +6,7 @@ const shoesShop = document.getElementById('app');
 const hasVisitedLandingPage = JSON.parse(
   localStorage.getItem('hasVisitedLandingPage')
 );
-export const homePage = () => {
+export const landingPage = () => {
   if (hasVisitedLandingPage) {
     return auth();
   } else {
